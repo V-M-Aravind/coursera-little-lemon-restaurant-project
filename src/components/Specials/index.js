@@ -8,7 +8,7 @@ import styles from "./Specials.module.css"
 
 const Specials = () => {
   return (
-    <section className={styles.specials}>
+    <section className={styles.specials} id="specials">
         <div className={styles.sub_heading}><h3>This Week's Specials</h3>
         <Button>Online Menu</Button></div>
         <div className={styles.food_card__container}><FoodCard image={GreekSalad} name="Greek Salad" price="$12.99" description="Refreshing salad, made with tomato, lettuce, feta cheese, and olives.

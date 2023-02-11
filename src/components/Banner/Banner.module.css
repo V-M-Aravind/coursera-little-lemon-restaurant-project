@@ -1,9 +1,9 @@
 .banner{
     height: 406px;
     background-color: #495E57;
-    /* padding: 0 290px; */
     display: flex;
     justify-content: space-around;
+    padding-bottom: 20px;
 }
 .banner__left{
     max-width: 422px;
@@ -51,3 +51,26 @@ text-align: left;
 
     }
 }
+@media only screen and (max-width: 900px) {
+.banner{
+    height: auto;
+}
+.hero{
+    z-index: 0;
+    margin-top: 47px;
+    width: 275px;
+    height: 310px;
+}
+ }
+ @media only screen and (max-width: 600px) {
+    .hero{
+        margin-top: 47px;
+        width: 175px;
+        height: 210px;
+    }
+   }
+   @media only screen and (max-width: 500px) {
+    .hero{
+      display: none;
+    }
+   }

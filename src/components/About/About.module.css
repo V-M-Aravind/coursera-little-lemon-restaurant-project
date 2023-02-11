@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 1.25rem 5rem 2.5rem 5rem;
-    min-height: 24rem;
+    min-height: 26rem;
     margin-bottom: -1rem;
     grid-gap: 25vw;
   }
@@ -47,3 +47,24 @@
     font-size: 2.5rem;
     margin-bottom: 3rem;
   }
+
+  @media only screen and (max-width: 900px) {
+  .double_image > img {
+    height: 50%;
+  }
+  .about_us {
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10vw;
+  }
+ }
+
+ @media only screen and (max-width: 600px) {
+  .double_image > img {
+    height: 50%;
+  }
+  .about_us {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    grid-gap: 1vw;
+  }
+ }

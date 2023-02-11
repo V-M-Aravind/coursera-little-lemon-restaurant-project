@@ -1,7 +1,7 @@
 import styles from "./About.module.css"
 export default function About() {
     return (
-        <article className={styles.about_us}>
+        <article className={styles.about_us} id='about'>
             <section className={styles.hero_text}>
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>

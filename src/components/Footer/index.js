@@ -3,18 +3,17 @@ import styles from "./Footer.module.css"
 
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
-      <menu>
-        <li className={styles.img_footer}>
+    <footer className={styles.footer} id="footer">
+        <div className={styles.img_footer}>
           <img
             src={require("../../assets/footer-logo.png")}
             alt="Little Lemon logo"
           ></img>
-        </li>
-        <li className={styles.contact}>
+        </div>
+        <div className={styles.contact}>
           <h1 className={styles.footer_header}>Navigation</h1>
           <ul className={styles.footer_links}>
-            <a href="/">Home</a>
+            <a href="#">Home</a>
             <a href="/about">About</a>
             <a
               href={require("../../assets/menu.webp")}
@@ -27,9 +26,9 @@ export default function Footer() {
             <a href="/order">Order</a>
             <a href="/login">Login</a>
           </ul>
-        </li>
+        </div>
 
-        <li>
+        <div>
           <h1 className={styles.footer_header}>Contact</h1>
           <ul className={styles.footer_links}>
             <li>2395 Maldove Way,</li>
@@ -45,8 +44,8 @@ export default function Footer() {
               info@littlelemon.com
             </a>
           </ul>
-        </li>
-        <li>
+        </div>
+        <div>
           <h1 className={styles.footer_header}>Connect</h1>
           <ul className={styles.footer_links}>
             <a
@@ -71,8 +70,7 @@ export default function Footer() {
               Join us!
             </a>
           </ul>
-        </li>
-      </menu>
+        </div>
     </footer>
   );
 }

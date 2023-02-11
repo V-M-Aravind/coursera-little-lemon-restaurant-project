@@ -1,9 +1,19 @@
 .header{
     display: flex;
     align-items: center;
-
+    height: auto;
 }
 .logo{
     max-height: 4rem;
     margin-right: 45px;
+}
+@media only screen and (max-width: 900px) {
+    .header{
+       flex-direction: column;
+       justify-content: center;
+    }
+    .logo{
+        margin-bottom: 10px;
+    }
+
 }

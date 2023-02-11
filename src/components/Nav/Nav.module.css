@@ -17,3 +17,17 @@ line-height: 23px;
 letter-spacing: 0em;
 text-align: left;
 }
+@media only screen and (max-width: 900px) {
+   .list{
+    margin: 0 12px;
+   }
+}
+@media only screen and (max-width: 600px) {
+  .list{
+    flex-direction: column;
+  }
+  .list >li{
+    text-align: center;
+    padding: 8px 2px;
+  }
+   }

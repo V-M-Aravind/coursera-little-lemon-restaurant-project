@@ -19,7 +19,8 @@ text-align: left;
 .food_card__container{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .food_card{
 height: 439px;
@@ -29,6 +30,7 @@ border-radius: 16px;
 display: flex;
 flex-direction: column;
 border-radius: 16px;
+margin: 10px;
 }
 .food_card img{
     height: 220px;
@@ -80,4 +82,11 @@ margin-right: 20px;
     width: 15px;
     height: 15px;
     margin-right: 20px;
+}
+@media only screen and (max-width: 900px) {
+    .specials{
+        margin-right:10px;
+        margin-left:10px;
+    }
+
 }
