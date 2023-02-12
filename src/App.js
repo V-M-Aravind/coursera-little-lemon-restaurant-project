@@ -1,16 +1,13 @@
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Main from './components/Main';
-import NavBar from './components/Nav';
+import HomePage from './pages/HomePage';
 
 function App() {
   return (<>
-  <Header>
-    <NavBar/>
-  </Header>
-  <Main/>
-  <Footer/>
+  <Routes>
+        <Route path="/" element={ <HomePage/> } />
+        {/* <Route path="booking" element={ </> } /> */}
+      </Routes>
 </>
   )
 }
