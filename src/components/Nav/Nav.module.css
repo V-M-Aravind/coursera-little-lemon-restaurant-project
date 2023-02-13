@@ -21,7 +21,7 @@ letter-spacing: 0em;
 text-align: left;
 }
 .list >li:hover{
-  background-color: rgb(71, 82, 71);
+  background-color: rgb(107, 110, 107);
 }
 @media only screen and (max-width: 900px) {
    .list{
